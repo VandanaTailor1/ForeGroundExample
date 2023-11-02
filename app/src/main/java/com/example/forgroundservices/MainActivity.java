@@ -38,6 +38,12 @@ public class MainActivity extends Activity{
                 stopService(serviceIntent);
                 startServiceButton.setVisibility(View.VISIBLE);
                 stopServiceButton.setVisibility(View.GONE);
+
+//                if(startServiceButton.getVisibility()==View.VISIBLE){
+//                    stopServiceButton.setVisibility(View.GONE);
+//                }else if(stopServiceButton.getVisibility()==View.VISIBLE) {
+//                    startServiceButton.setVisibility(View.GONE);
+//                }
             }
         });
     }
